@@ -68,4 +68,9 @@ public partial class Candidate
 
     [InverseProperty("Candidate")]
     public virtual ICollection<CandidatesDetail> CandidatesDetails { get; set; } = new List<CandidatesDetail>();
+
+    //public static implicit operator Candidate(Candidate v)
+    //{
+    //    throw new NotImplementedException();
+    //}
 }
